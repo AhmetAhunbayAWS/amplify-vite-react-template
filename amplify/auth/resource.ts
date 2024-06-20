@@ -18,7 +18,7 @@ export const auth = defineAuth({
           name: "OktaClient",
           clientId: secret('OKTA_CLIENT_ID'),
           clientSecret: secret('OKTA_CLIENT_SECRET'),
-          issuerUrl: 'dev-z0pet31ai0jjaayy.us.auth0.com',
+          issuerUrl: 'https://dev-z0pet31ai0jjaayy.us.auth0.com',
         }
       ],
       callbackUrls: ['http://localhost:5173/profile', 'https://main.d21e0xd5en76i9.amplifyapp.com/profile'],
