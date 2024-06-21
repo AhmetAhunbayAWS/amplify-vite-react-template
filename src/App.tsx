@@ -16,7 +16,7 @@ function App() {
   const auth = <Authenticator/>
   console.log(auth)
 
-  return signed ? <Todo/> : {auth}
+  return signed ? <Todo/> : <Authenticator/>
 }
 
 export default App;
