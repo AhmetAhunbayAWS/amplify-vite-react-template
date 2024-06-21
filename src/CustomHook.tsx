@@ -28,6 +28,8 @@ function useIsSignedIn() {
         console.log("hub payload:")
         console.log(payload)
         if (payload.event === 'signedIn'){
+            // eslint-disable-next-line no-debugger
+            //debugger;
             setIsSigned(true)
         } else if (payload.event === 'signedOut'){
             setIsSigned(false)
