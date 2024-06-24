@@ -13,7 +13,9 @@ function App() {
 
   return signed ? <Todo/> : 
   <div>
-    <Authenticator/>
+    <Authenticator>
+      <p>Interior</p>
+    </Authenticator>
     <OktaSignIn/>
   </div>
 
